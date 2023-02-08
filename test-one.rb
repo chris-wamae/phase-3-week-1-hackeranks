@@ -32,6 +32,7 @@ obj = [10, "Hacker", "Submission", "TestCase", "Submission", "Hacker", "Hacker",
 
 def identify_class(obj)
     # write your case control structure here
+    obj.map do |value|
     case value
         when "Hacker" then puts "It's a Hacker!"
         when "Submission" then puts "It's a Submission!"
