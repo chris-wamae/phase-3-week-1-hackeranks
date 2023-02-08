@@ -13,12 +13,15 @@
 
 #TEST CASES
 #Use puts on the return to print it out and check if its an array of #values
-
+colors = ["red","blue","green"]
 def iterate_colors(colors)
     # Your code here
      color_values = []
      colors.each do |v|
           color_values << v
      end
+     pp color_values
       color_values
   end
+
+iterate_colors(colors)
