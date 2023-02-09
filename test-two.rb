@@ -12,7 +12,7 @@
 #END
 
 #TEST CASES
-#Use puts on the return to print it out and check if its an array of #values
+#Use pp on the return to print it out and check if its an array of #values
 colors = ["red","blue","green"]
 def iterate_colors(colors)
     # Your code here

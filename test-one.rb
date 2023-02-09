@@ -28,6 +28,7 @@
 # Contest => "It's a Contest!"
 # Hacker => "It's a Hacker!"
 
+#SOLUTION
 obj = [10, "Hacker", "Submission", "TestCase", "Submission", "Hacker", "Hacker", "Submission", "TestCase", "Contest", "Hacker"]
 
 def identify_class(obj)
